@@ -1,0 +1,40 @@
+.Header{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 10px auto;
+    align-items: center;
+}
+
+.Header-nav{
+    display: flex;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    list-style: none;
+    padding: 30px 0 30px 60px;
+    font-size: larger;
+}
+
+li > a {
+    text-decoration: none;
+    color:black;
+}
+
+li:hover{
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    li{
+        font-size: medium;
+        padding: 7px;
+    }
+    .Header > img{
+        height: 30px;
+    }
+}

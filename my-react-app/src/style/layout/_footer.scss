@@ -1,0 +1,22 @@
+.footer{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding: 30px 0;
+    position: relative;
+    height: 70px;
+}
+
+.footer > p{
+    color:white;
+    position: absolute;
+    bottom: 0;
+    margin: 10px;
+}
+
+.footer > img{
+    width: 60px;
+}

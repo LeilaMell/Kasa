@@ -1,0 +1,134 @@
+.fiche{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-location-tag > h2{
+    color: $main-color;
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 20px 0 10px 0;
+}
+
+.title-location-tag > h3{
+    font-weight: 500;
+    margin: 0;
+}
+
+.tags {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+  
+.tag {
+    background-color: #ff6060;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    margin-top: 0;
+}
+
+.host{
+    margin-top: 20px;
+    display: flex;
+    color: $main-color;
+}
+
+.host-img-contenant{
+    height: 50px;
+    border-radius: 30px;
+    margin-left: 20px;
+}
+
+.host-img-contenant > img{
+    height: 50px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.rating {
+    display: flex;
+    margin: 20px 0;
+    justify-self: end;
+  
+    .fa-star {
+      font-size: 20px;
+      margin-left: 10px;
+    }
+  
+    .filled {
+      color: #ff6060;
+    }
+  
+    .empty {
+      color: #e3e3e3;
+    }
+}
+
+.description-equipements{
+    display: flex;
+    justify-content: space-between;
+}
+
+.drop-fiche{
+    width: 47%;
+}
+
+@media (max-width: 768px) {
+
+    .info{
+        flex-direction: column;
+    }
+
+    .title-location-tag > h2{
+        font-size: 25px;
+    }
+
+    .title-location-tag > h3{
+        font-size: 17px;
+    }
+
+    .host-rating{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .description-equipements{
+        flex-direction: column;
+    }
+    .drop-fiche{
+        width: 100%;
+    }
+
+    .rating .fa-star{
+        font-size: 15px;
+        margin-left: 0;
+        margin-right: 5px;
+    }
+
+    .host{
+        margin-top: 0;
+
+        p{
+            max-width: 60px;
+            margin: 0 5px 0 0;
+        }
+    }
+    
+    .host-img-contenant{
+        height: 40px;
+    }
+    
+    .host-img-contenant > img{
+        height: 40px;
+    }
+}

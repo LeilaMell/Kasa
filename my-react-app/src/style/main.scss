@@ -1,0 +1,15 @@
+@import 'abstracts/mixins';
+@import 'abstracts/variables';
+
+@import 'base/body.scss';
+
+@import 'components/carrousel';
+@import 'components/dropdown';
+
+@import 'layout/footer';
+@import 'layout/header';
+
+@import 'pages/home';
+@import 'pages/error';
+@import 'pages/about';
+@import 'pages/fiche'
