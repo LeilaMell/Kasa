@@ -1,6 +1,8 @@
 .dropdown {
     margin: 10px 0;
     width: 100%;
+    display: flex;
+    flex-direction: column;
   
     .dropdown-header {
       display: flex;
@@ -36,7 +38,6 @@
   
       &.open {
           max-height: 500px;
-          min-height: 240px;
           opacity: 1;
           padding: 10px;
       }
@@ -65,7 +66,8 @@
     }
   
   }
-  
+
+    
   @media (max-width: 768px) {
 
     .dropdown{

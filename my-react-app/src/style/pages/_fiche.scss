@@ -73,14 +73,35 @@
     }
 }
 
-.description-equipements{
+.description-equipements {
     display: flex;
+    gap: 50px; 
+    align-items: stretch;
     justify-content: space-between;
-}
-
-.drop-fiche{
-    width: 47%;
-}
+  }
+  
+  .drop-fiche {
+    flex: 1; 
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .drop-fiche .dropdown {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1; 
+  }
+  
+  .drop-fiche .dropdown-header {
+    flex-shrink: 0;
+  }
+  
+  .drop-fiche .dropdown-content {
+    flex-grow: 1; 
+    display: flex;
+    flex-direction: column;
+  }
+  
 
 @media (max-width: 768px) {
 

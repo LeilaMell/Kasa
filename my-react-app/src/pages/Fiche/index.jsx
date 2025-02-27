@@ -47,8 +47,12 @@ function Fiche(){
                     </div>
                 </div>
                 <div className='description-equipements'>
-                    <span className='drop-fiche'><Dropdown title="Description " content={item.description} /></span>
-                    <span className='drop-fiche'><Dropdown title="Équipements " content={item.equipments} /></span>
+                    <div className='drop-fiche'>
+                        <Dropdown title="Description " content={item.description} />
+                    </div>
+                    <div className='drop-fiche'>
+                        <Dropdown title="Équipements " content={item.equipments} />
+                    </div>
                 </div>
             </div>
             <Footer />
