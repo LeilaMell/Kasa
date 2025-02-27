@@ -36,6 +36,7 @@
   
       &.open {
           max-height: 500px;
+          min-height: 240px;
           opacity: 1;
           padding: 10px;
       }

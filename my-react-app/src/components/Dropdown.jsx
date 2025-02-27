@@ -16,8 +16,8 @@ function Dropdown({ title, content }) {
             <div className={`dropdown-content ${isOpen ? "open" : "close"}`}>
                 {Array.isArray(content) ? (
                 <ul>
-                    {content.map((item, index) => (
-                    <li key={index}>{item}</li>
+                    {content.map((item, id) => (
+                    <li key={id}>{item}</li>
                     ))}
                 </ul>
                 ) : (

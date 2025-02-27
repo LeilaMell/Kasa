@@ -4,7 +4,7 @@ import Footer from '../../components/Footer'
 import Carrousel from '../../components/Carrousel';
 import Data from '../../../data.json'
 import Dropdown from '../../components/Dropdown'
-import Error from '.././/Error/index'
+import Error from '../Error'
 
 function Fiche(){
     const { id } = useParams(); 
